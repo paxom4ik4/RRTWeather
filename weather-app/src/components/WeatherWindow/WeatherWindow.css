@@ -1,0 +1,8 @@
+.weather-window {
+  width: 80%;
+  height: 400px;
+  margin: 25px auto;
+  border: 1px solid #ffffff;
+  background-color: #00000075;
+  border-radius: 10px;
+}
