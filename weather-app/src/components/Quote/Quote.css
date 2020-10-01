@@ -1,0 +1,44 @@
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 200px;
+  margin: 25px auto;
+  border: 1px solid #ffffff;
+  background-color: #00000075;
+  border-radius: 10px;
+  animation: loyal 1s;
+}
+@keyframes loyal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.user-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  padding: 0 20px;
+  color: #ffffff;
+}
+
+.change-name {
+  outline: none;
+  border: 0;
+  background: none;
+  color: #eeeeee;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.change-name:hover {
+  cursor: pointer;
+  background-color: #eeeeee20;
+  transition: 0.3s;
+}
