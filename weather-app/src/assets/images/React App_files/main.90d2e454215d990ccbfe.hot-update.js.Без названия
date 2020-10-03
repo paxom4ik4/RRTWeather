@@ -1,0 +1,82 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Search/Search.css":
+false,
+
+/***/ "./src/components/App/App.tsx":
+/*!************************************!*\
+  !*** ./src/components/App/App.tsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _WeatherWindow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../WeatherWindow */ "./src/components/WeatherWindow/index.ts");
+/* harmony import */ var _CurrentTime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../CurrentTime */ "./src/components/CurrentTime/index.ts");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App.css */ "./src/components/App/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Paxom4ik\\Desktop\\react-redux\\RRTWeather\\weather-app\\src\\components\\App\\App.tsx";
+
+
+
+
+
+const App = () => {
+  const [name, setName] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("User Name");
+  const [isChanging, change] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+
+  const changeName = () => {
+    change(!isChanging);
+  };
+
+  const updateName = e => {
+    setName(e.target.value);
+  };
+
+  function submitName() {
+    change(!isChanging);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "app",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CurrentTime__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 7
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WeatherWindow__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 7
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/Search/Search.css":
+false,
+
+/***/ "./src/components/Search/Search.tsx":
+false,
+
+/***/ "./src/components/Search/index.ts":
+false
+
+})
+//# sourceMappingURL=main.90d2e454215d990ccbfe.hot-update.js.map

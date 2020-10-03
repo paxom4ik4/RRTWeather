@@ -7,12 +7,7 @@ const NameInput = (props: {
 }) => {
   return (
     <div className="name-input">
-      <p>Input Your Name</p>
-      <input
-        type="text"
-        placeholder="name"
-        onChange={(e) => props.updName(e)}
-      />
+      <input autoFocus={true} type="text" onChange={(e) => props.updName(e)} />
       <button className="submit-name" onClick={() => props.submitName()}>
         Submit
       </button>

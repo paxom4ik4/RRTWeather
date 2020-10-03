@@ -1,7 +1,9 @@
 .current-time {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   width: 80%;
+  height: 100px;
   margin: auto;
   font-size: 36px;
   color: #ffffff;
