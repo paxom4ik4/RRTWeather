@@ -1,0 +1,60 @@
+.map-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.blured {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.weather-map {
+  margin: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  right: 0;
+  height: 100%;
+  width: 42%;
+  background-color: #eeeeeece;
+  animation: loyalMap 0.8s;
+}
+@keyframes loyalMap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 42%;
+  }
+}
+.close-item {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: 0.3s;
+}
+.close-item:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #8bcef2;
+}
+
+.app-map {
+  animation: appMap 0.9s;
+}
+
+@keyframes appMap {
+  0% {
+    width: 42%;
+  }
+  100% {
+    width: 0%;
+  }
+}
